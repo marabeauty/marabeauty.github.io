@@ -29,7 +29,7 @@ html{
 
 body{
     font-family: "Montserrat", sans-serif;
-    background-color: primaryColor;
+    background-color: $primaryColor;
 }
 
 h1{
@@ -46,6 +46,17 @@ h2{
     color: $thirdyColor;
 }
 
+.logo{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    text-align: center;
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
 #catalogo{
     display: grid;
     place-items: center;
@@ -53,20 +64,26 @@ h2{
     row-gap: 32px;
     article.producto{
         display: grid;
+        grid-template-rows: 1fr 1fr;
         width: 280px;
         figure{
+            display: grid;
             width: 280px;
             height: 280px;
             img{
                 width: 280px;
                 height: 280px;
                 object-fit: cover;
+                border: 1px solid $secondColor;
+                border-bottom: 0;
             }
         }
         .producto-info{
             display: grid;
             padding: 12px 8px;
             border: 1px solid $secondColor;
+            max-height: 200px;
+            background-color: white;
             .marca{
                 text-transform: uppercase;
                 font-size: 1.8rem;
@@ -85,6 +102,7 @@ h2{
 
     }
     @media  (width>$tablet) {
+        align-items: stretch;
         grid-template-columns: repeat(2, 1fr);
     }
 }
