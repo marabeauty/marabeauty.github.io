@@ -1,0 +1,89 @@
+/** Screen Size **/
+/** Color Palette **/
+/** Color Palette **/
+/** Font Family **/
+:root {
+  /** Screen Size **/
+  --mobileSmall: 320px;
+  --mobileMedium: 375px;
+  --mobileLarge: 425px;
+  --tablet: 768px;
+  --laptopSmall: 1024px;
+  --laptopMedium: 1440px;
+  --laptopLarge: 2560px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  user-select: none;
+  color: #1d1e1d;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: primaryColor;
+}
+
+h1 {
+  text-align: center;
+  padding: 24px 0;
+  font-size: 5rem;
+  color: #f2877c;
+}
+
+h2 {
+  text-align: left;
+  padding: 16px 20px;
+  font-size: 4.2rem;
+  color: #ffb6ae;
+}
+
+#catalogo {
+  display: grid;
+  place-items: center;
+  padding: 12px 0;
+  row-gap: 32px;
+}
+#catalogo article.producto {
+  display: grid;
+  width: 280px;
+}
+#catalogo article.producto figure {
+  width: 280px;
+  height: 280px;
+}
+#catalogo article.producto figure img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+#catalogo article.producto .producto-info {
+  display: grid;
+  padding: 12px 8px;
+  border: 1px solid #ffcdc8;
+}
+#catalogo article.producto .producto-info .marca {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  color: #ff9f95;
+}
+#catalogo article.producto .producto-info .referencia {
+  text-transform: capitalize;
+  font-size: 2.4rem;
+}
+#catalogo article.producto .producto-info .precio {
+  text-align: center;
+  padding-top: 24px;
+  font-size: 2rem;
+}
+@media (width > 768px) {
+  #catalogo {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}/*# sourceMappingURL=style.css.map */

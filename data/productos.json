@@ -1,0 +1,274 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "categoria": "Rostro",
+            "producto": "Polvo",
+            "marca": "Bloomshell",
+            "referencia": "Polvo translucido ",
+            "cantidad": 3,
+            "precio": 30000
+        },
+        {
+            "id": 2,
+            "categoria": "Rostro",
+            "producto": "Corrector",
+            "marca": "Anika ",
+            "referencia": "Corrector Tono 01",
+            "cantidad": 2,
+            "precio": 18000
+        },
+        {
+            "id": 3,
+            "categoria": "Rostro",
+            "producto": "Corrector",
+            "marca": "Anika ",
+            "referencia": "Corrector Tono 02",
+            "cantidad": 2,
+            "precio": 18000
+        },
+        {
+            "id": 4,
+            "categoria": "Rostro",
+            "producto": "Rubor",
+            "marca": "Montoc",
+            "referencia": "Nostalgic Blush Cream tono Darling",
+            "cantidad": 1,
+            "precio": 35000
+        },
+        {
+            "id": 5,
+            "categoria": "Rostro",
+            "producto": "Rubor",
+            "marca": "Atenea",
+            "referencia": "Rubor 1st scene",
+            "cantidad": 1,
+            "precio": 35000
+        },
+        {
+            "id": 6,
+            "categoria": "Rostro",
+            "producto": "Paleta",
+            "marca": "Atenea",
+            "referencia": "Paleta essential Rubor, iluminador y contorno",
+            "cantidad": 2,
+            "precio": 50000
+        },
+        {
+            "id": 7,
+            "categoria": "Rostro",
+            "producto": "Rubor",
+            "marca": "Msyaho",
+            "referencia": "Rubor Carnival",
+            "cantidad": 2,
+            "precio": 15000
+        },
+        {
+            "id": 8,
+            "categoria": "Rostro",
+            "producto": "Rubor",
+            "marca": "Alma Beauty",
+            "referencia": "Rubor Jelly Cherry Kiss",
+            "cantidad": 2,
+            "precio": 15000
+        },
+        {
+            "id": 9,
+            "categoria": "Rostro",
+            "producto": "Rubor",
+            "marca": "Alma Beauty",
+            "referencia": "Rubor Jelly Sweet Peah",
+            "cantidad": 2,
+            "precio": 15000
+        },
+        {
+            "id": 10,
+            "categoria": "Labios",
+            "producto": "Brillo",
+            "marca": "Atenea",
+            "referencia": "Brillo 1st scene Tono coco",
+            "cantidad": 2,
+            "precio": 40000
+        },
+        {
+            "id": 11,
+            "categoria": "Labios",
+            "producto": "Brillo",
+            "marca": "Montoc",
+            "referencia": "Brillo 205",
+            "cantidad": 2,
+            "precio": 26000
+        },
+        {
+            "id": 12,
+            "categoria": "Labios",
+            "producto": "Brillo",
+            "marca": "Montoc",
+            "referencia": "Brillo 202",
+            "cantidad": 1,
+            "precio": 26000
+        },
+        {
+            "id": 13,
+            "categoria": "Labios",
+            "producto": "Balsamo",
+            "marca": "Bioaqua",
+            "referencia": "Balsamo labial durazno",
+            "cantidad": 4,
+            "precio": 6000
+        },
+        {
+            "id": 14,
+            "categoria": "Labios",
+            "producto": "Brillo",
+            "marca": "Bloomshell",
+            "referencia": "Brillo Baby",
+            "cantidad": 1,
+            "precio": 15000
+        },
+        {
+            "id": 15,
+            "categoria": "Ojos",
+            "producto": "Lapiz",
+            "marca": "Engol",
+            "referencia": "Lapiz Delineador blanco",
+            "cantidad": 5,
+            "precio": 4000
+        },
+        {
+            "id": 16,
+            "categoria": "Ojos",
+            "producto": "Lapiz",
+            "marca": "Engol",
+            "referencia": "Lapiz Delineador café",
+            "cantidad": 5,
+            "precio": 4000
+        },
+        {
+            "id": 17,
+            "categoria": "Ojos",
+            "producto": "Lapiz",
+            "marca": "Engol",
+            "referencia": "Lapiz Delineador negro",
+            "cantidad": 3,
+            "precio": 4000
+        },
+        {
+            "id": 18,
+            "categoria": "Ojos",
+            "producto": "Sombras",
+            "marca": "Atenea",
+            "referencia": "Sombras 1st scene Backstage",
+            "cantidad": 1,
+            "precio": 30000
+        },
+        {
+            "id": 19,
+            "categoria": "Ojos",
+            "producto": "Sombras",
+            "marca": "Atenea",
+            "referencia": "Sombras Atemporal Legacy",
+            "cantidad": 1,
+            "precio": 45000
+        },
+        {
+            "id": 20,
+            "categoria": "Ojos",
+            "producto": "Pestañina",
+            "marca": "Prosa",
+            "referencia": "Pestañina prosa",
+            "cantidad": 3,
+            "precio": 26000
+        },
+        {
+            "id": 21,
+            "categoria": "Cejas",
+            "producto": "Betun",
+            "marca": "Day colors",
+            "referencia": "Betun de cejas",
+            "cantidad": 3,
+            "precio": 15000
+        },
+        {
+            "id": 22,
+            "categoria": "Accesorios",
+            "producto": "Brocha",
+            "marca": "Trendy",
+            "referencia": "Brocha polvo P100",
+            "cantidad": 1,
+            "precio": 20000
+        },
+        {
+            "id": 23,
+            "categoria": "Accesorios",
+            "producto": "Brocha",
+            "marca": "Trendy",
+            "referencia": "Brocha polvo P101",
+            "cantidad": 1,
+            "precio": 15000
+        },
+        {
+            "id": 24,
+            "categoria": "Accesorios",
+            "producto": "Brocha",
+            "marca": "Bloomshell",
+            "referencia": "Brocha polvo c8",
+            "cantidad": 1,
+            "precio": 28000
+        },
+        {
+            "id": 25,
+            "categoria": "Accesorios",
+            "producto": "Brocha",
+            "marca": "Mantra",
+            "referencia": "Brocha corrector D7",
+            "cantidad": 3,
+            "precio": 15000
+        },
+        {
+            "id": 26,
+            "categoria": "Accesorios",
+            "producto": "Toalla",
+            "marca": "No aplica",
+            "referencia": "Toalla Microfibra",
+            "cantidad": 3,
+            "precio": 16000
+        },
+        {
+            "id": 27,
+            "categoria": "Accesorios",
+            "producto": "Borla",
+            "marca": "Montoc",
+            "referencia": "Borla Corazon",
+            "cantidad": 5,
+            "precio": 6000
+        },
+        {
+            "id": 28,
+            "categoria": "Skincare",
+            "producto": "Mascarilla",
+            "marca": "Bioaqua",
+            "referencia": "Mascarilla Centella Morado",
+            "cantidad": 6,
+            "precio": 5000
+        },
+        {
+            "id": 29,
+            "categoria": "Skincare",
+            "producto": "Mascarilla",
+            "marca": "Bioaqua",
+            "referencia": "Mascarilla Centella verde",
+            "cantidad": 4,
+            "precio": 5000
+        },
+        {
+            "id": 30,
+            "categoria": "Skincare",
+            "producto": "Mascarilla ",
+            "marca": "Bioaqua",
+            "referencia": "Mascarilla ojos y labios",
+            "cantidad": 1,
+            "precio": 5000
+        }
+    ]
+}

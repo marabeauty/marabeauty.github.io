@@ -1,0 +1,90 @@
+@use 'sass:math';
+@use "sass:string";
+@use "sass:meta";
+@import 'variables.scss';
+    
+:root{
+    /** Screen Size **/
+    --mobileSmall: #{meta.inspect($mobileSmall)};
+    --mobileMedium: #{meta.inspect($mobileMedium)};
+    --mobileLarge: #{meta.inspect($mobileLarge)};
+    --tablet: #{meta.inspect($tablet)};
+    --laptopSmall: #{meta.inspect($laptopSmall)};
+    --laptopMedium: #{meta.inspect($laptopMedium)};
+    --laptopLarge: #{meta.inspect($laptopLarge)};
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+    user-select: none;
+    color: $black;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: primaryColor;
+}
+
+h1{
+    text-align: center;
+    padding: 24px 0;
+    font-size: 5rem;
+    color: $fifthColor;
+}
+
+h2{
+    text-align: left;
+    padding: 16px 20px;
+    font-size: 4.2rem;
+    color: $thirdyColor;
+}
+
+#catalogo{
+    display: grid;
+    place-items: center;
+    padding: 12px 0;
+    row-gap: 32px;
+    article.producto{
+        display: grid;
+        width: 280px;
+        figure{
+            width: 280px;
+            height: 280px;
+            img{
+                width: 280px;
+                height: 280px;
+                object-fit: cover;
+            }
+        }
+        .producto-info{
+            display: grid;
+            padding: 12px 8px;
+            border: 1px solid $secondColor;
+            .marca{
+                text-transform: uppercase;
+                font-size: 1.8rem;
+                color: $fourthColor;
+            }
+            .referencia{
+                text-transform: capitalize;
+                font-size: 2.4rem;
+            }
+            .precio{
+                text-align: center;
+                padding-top: 24px;
+                font-size: 2rem;
+            }
+        }
+
+    }
+    @media  (width>$tablet) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
